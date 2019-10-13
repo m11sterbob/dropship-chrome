@@ -60,7 +60,7 @@ class Options
   #   callback
   # @return {String} the download location, relative to the user's Dropbox
   sampleDownloadFolder: (items) ->
-    folder = '/Apps/Chrome Downloads'
+    folder = '/Apps/Downloads from Chrome'
     if items.downloadDateFolder
       folder += '/' + humanize.date('Y-m-d', new Date())
     if items.downloadSiteFolder
